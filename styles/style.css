@@ -10,11 +10,11 @@ body {
   margin:0 auto;
 }
 
-div, nav, h1, h2, h3, p, ul, li, section img {
+/*div, nav, h1, h2, h3, p, ul, li, section img {
 
   border:1px solid red;
 
-}
+}*/
 
 .header {
   margin: 0;
@@ -59,4 +59,60 @@ div, nav, h1, h2, h3, p, ul, li, section img {
 }
 
 
+.lead {
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lead__title {
+  margin: 0 auto;
+  width: 720px;
+  height: 200px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+}
+.lead__subtitle {
+  width: 640px;
+  height: 72px;
+  margin: 32px auto 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+.lead__image {
+  margin: 64px auto 0;
+  width: 984px;
+  height: 615px;
+  object-fit: fill;
+}
+.lead__caption {
+  margin: 8px auto 0 0;
+  width: 168px;
+  height: 14px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.intro {
+
+}
+.intro__title {
+}
+.intro__text {
+}
+.intro__list {
+}
 
