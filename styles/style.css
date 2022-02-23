@@ -4,6 +4,7 @@
   font-family: Inter;
 }
 
+
 body {
   background: #2A2C2F;
   width: 1280px;
@@ -82,8 +83,9 @@ body {
 }
 .lead__image {
   margin: 64px auto 0;
-  width: 984px;
-  height: 615px;
+  /*width: 984px;*/
+  width: 100%;
+  /*height: 615px;*/
   object-fit: fill;
 }
 .lead__caption {
@@ -332,3 +334,19 @@ text-align: center;
   line-height: 16px;
 
 }
+
+@media (max-width:1279px) {
+  body {
+      width: 1024px;
+  }
+  .lead {
+    margin-right: calc(0.390625 * 100vw - 400px);
+    margin-left: calc(0.390625 * 100vw - 400px);
+    margin-top:calc(0.03125 * 100vw + 16px);
+  }
+  .lead__image {
+    margin: calc(0.03125 * 100vw + 24px) auto 0;
+  }
+}
+
+
