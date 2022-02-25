@@ -1,0 +1,13 @@
+.header__lang_en {
+  padding: 0 0 0 18px;
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (max-width:767px){
+
+  .header__lang_en {
+    padding: 0 0 0 18px;
+  }
+
+}
