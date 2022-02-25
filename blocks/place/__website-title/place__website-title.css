@@ -1,0 +1,17 @@
+.place__website-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+
+}
+
+@media (max-width:1023px){
+
+  .place__website-title {
+    margin: 0 0 10px 0;
+  }
+
+}

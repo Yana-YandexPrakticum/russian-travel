@@ -1,0 +1,29 @@
+.place {
+  display: grid;
+  grid-template-columns: 460px minmax(auto, 484px);
+  grid-template-areas:
+    'title website'
+		'image text';
+  gap: 48px 40px;
+}
+
+@media (max-width:1279px) {
+
+  .place {
+    grid-template-columns: calc(0.078125 * 100vw + 360px) minmax(auto, 484px);
+    gap: 48px 32px;
+  }
+
+}
+
+@media (max-width:1023px){
+
+  .place {
+    grid-template-columns: 340px minmax(auto, 360px);
+    grid-template-areas:
+      'title website'
+      'image text';
+    gap: 48px 28px;
+  }
+
+}

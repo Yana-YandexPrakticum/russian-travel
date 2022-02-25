@@ -1,0 +1,23 @@
+.header__lang {
+  list-style: none;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 28px;
+  font-style: normal;
+  font-weight: normal;
+  display: flex;
+  margin: 0;
+  align-self: flex-end;
+  padding-bottom: 5px;
+}
+
+
+@media (max-width:767px){
+
+  .header__lang {
+    font-size: 18px;
+    line-height: 20px;
+    padding-bottom: 8px;
+  }
+
+}

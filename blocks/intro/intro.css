@@ -1,0 +1,30 @@
+.intro {
+  margin: 92px auto 0 148px;
+  width: 690px;
+  height: 429px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width:1279px) {
+   .intro {
+    margin-left: calc(0.390625 * 100vw - 352px);
+  }
+}
+
+@media (max-width:1023px){
+
+  .intro {
+    margin:calc(0.015625 * 100vw + 76px) calc(0.09375 * 100vw - 48px) 0;
+  }
+
+}
+
+@media (max-width:767px){
+  
+  .intro {
+    margin: 64px 16px 0 16px;
+
+  }
+
+}
