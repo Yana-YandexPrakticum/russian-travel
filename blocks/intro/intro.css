@@ -15,16 +15,18 @@
 @media (max-width:1023px){
 
   .intro {
+    width: unset;
     margin:calc(0.015625 * 100vw + 76px) calc(0.09375 * 100vw - 48px) 0;
   }
 
 }
 
 @media (max-width:767px){
-  
-  .intro {
-    margin: 64px 16px 0 16px;
 
+  .intro {
+    height: unset;
+    margin: 64px 16px 0 16px;
+    width: calc(100% - 32px);
   }
 
 }

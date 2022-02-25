@@ -27,3 +27,15 @@
   }
 
 }
+
+@media (max-width:1023px){
+  .place{
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    'title'
+    'website'
+		'image'
+    'text';
+  row-gap: 32px;
+  }
+}

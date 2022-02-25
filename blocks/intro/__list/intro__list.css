@@ -9,3 +9,9 @@
   line-height: 18px;
   font-style: normal;
 }
+
+@media (max-width:767px){
+  .intro__list{
+    margin-bottom: 0;
+  }
+}

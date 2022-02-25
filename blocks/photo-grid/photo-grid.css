@@ -1,6 +1,5 @@
 .photo-grid {
   margin: 92px 48px 0;
-  /*width: 100%;*/
   display: grid;
   gap:16px 16px;
   grid-template-columns: repeat(4, 1fr);
@@ -29,4 +28,13 @@
     grid-auto-flow: row;
   }
 
+}
+
+@media (max-width:767px){
+  .photo-grid {
+    margin: 64px 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+  }
 }

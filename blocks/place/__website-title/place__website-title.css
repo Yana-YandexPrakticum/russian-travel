@@ -15,3 +15,11 @@
   }
 
 }
+
+@media (max-width:767px){
+
+  .place__website-title {
+    margin: 0 0 11px 0;
+  }
+
+}

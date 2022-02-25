@@ -17,3 +17,15 @@
     }
 
   }
+
+  @media (max-width:767px) {
+    .cover__title {
+      width: 250px;
+      height: unset;
+      font-size: 32px;
+      line-height: 35px;
+      padding: 0;
+      margin: 33px auto 0;
+    }
+
+  }
