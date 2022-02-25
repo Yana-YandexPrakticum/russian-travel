@@ -1,5 +1,5 @@
 .header__lang_en {
-  padding: 0 0 0 18px;
+  padding: 0;
   text-decoration: none;
   color: #fff;
 }
@@ -7,7 +7,7 @@
 @media (max-width:767px){
 
   .header__lang_en {
-    padding: 0 0 0 18px;
+    padding: 0;
   }
 
 }

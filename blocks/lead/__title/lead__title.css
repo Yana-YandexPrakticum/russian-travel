@@ -1,7 +1,7 @@
 .lead__title {
   margin: 0 auto;
-  width: 720px;
-  height: 200px;
+  width: 80%;
+  /*height: 200px;*/
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
@@ -9,15 +9,20 @@
   text-align: center;
 }
 
+@media (max-width:1023px){
+
+  .lead__title {
+    width: 90%;
+  }
+
+}
+
 @media (max-width:767px){
 
   .lead__title {
+    width: 90%;
     font-size: 40px;
     line-height: 44px;
-    /*margin-left: 16px;
-    margin-right: 16px;*/
-    width: 320px;
-    height: 88px;
   }
 
 }

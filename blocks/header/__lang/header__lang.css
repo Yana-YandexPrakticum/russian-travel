@@ -7,8 +7,10 @@
   font-weight: normal;
   display: flex;
   margin: 0;
+  padding: 0;
   align-self: flex-end;
   padding-bottom: 5px;
+  gap: 18px;
 }
 
 
