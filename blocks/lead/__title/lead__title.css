@@ -16,6 +16,13 @@
 
 }
 
+@media (max-widtt:899px){
+  .lead__title{
+    font-size: 75px;
+    line-height: 75px;
+  }
+}
+
 @media (max-width:767px){
 
   .lead__title {

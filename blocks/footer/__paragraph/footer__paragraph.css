@@ -18,11 +18,8 @@
   .footer__paragraph{
     float:unset;
     text-align: left;
-    display: block;
-    color: white;
     text-decoration: none;
     margin-top: 50px;
-
     font-size: 14px;
     line-height: 14px;
   }
