@@ -10,6 +10,7 @@
   .lead {
     margin: calc(0.03125 * 100vw + 16px) calc(0.390625 * 100vw - 352px);
   }
+
 }
 
 
@@ -18,5 +19,6 @@
   .lead {
     margin: 48px 0 0 ;
   }
+
 }
 

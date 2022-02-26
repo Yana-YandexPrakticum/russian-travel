@@ -5,16 +5,20 @@
 }
 
 @media (max-width:1279px) {
+
   .cover-container {
     margin-left: 0;
     margin-right: 0;
     width: 100vw;
   }
+
 }
+
 
 @media (max-width:767px) {
 
   .cover-container {
     margin-top:66px;
   }
+  
 }

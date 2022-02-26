@@ -5,10 +5,12 @@
   align-items: flex-start;
   gap: 26px;
 }
+
 @media (max-width:767px){
 
   .place__text{
     margin:0 16px;
     gap: 25px;
-}
+  }
+
 }
