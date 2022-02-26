@@ -1,4 +1,4 @@
-.header__lang_en {
+.header__lang-en {
   padding: 0;
   text-decoration: none;
   color: #fff;
@@ -6,7 +6,7 @@
 
 @media (max-width:767px){
 
-  .header__lang_en {
+  .header__lang-en {
     padding: 0;
   }
 
