@@ -1,13 +1,13 @@
 .header__logo{
   object-fit: fill;
-  width: 176px;
+  max-width: 176px;
 }
 
 @media (max-width:767px){
 
   .header__logo{
     object-fit: fill;
-    width: 142px;
+    max-width: 142px;
   }
 
 }

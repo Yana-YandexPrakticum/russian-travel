@@ -1,6 +1,6 @@
 .intro {
   margin: 92px auto 0 148px;
-  width: 690px;
+  max-width: 690px;
   display: flex;
   flex-direction: column;
 }
@@ -10,13 +10,12 @@
    .intro {
     margin-left: calc(0.390625 * 100vw - 352px);
   }
-  
+
 }
 
 @media (max-width:1023px){
 
   .intro {
-    width: unset;
     margin:calc(0.015625 * 100vw + 76px) calc(0.09375 * 100vw - 48px) 0;
   }
 
@@ -26,7 +25,6 @@
 
   .intro {
     margin: 64px 16px 0 16px;
-    width: calc(100% - 32px);
   }
 
 }

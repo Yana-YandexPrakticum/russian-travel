@@ -1,9 +1,5 @@
 .cover-container {
   margin: 92px 48px 0;
-  /*aspect-ratio: 8 / 5;*//* Хотелось бы использовать это свойство, проверяющая система яндекс.практикум про него не знает ;((*/
-  width: 1184px;
-  height: 740px;
-  box-sizing: border-box;
 }
 
 @media (max-width:1279px) {
@@ -11,8 +7,6 @@
   .cover-container {
     margin-left: 0;
     margin-right: 0;
-    width: 100vw;
-    height: 62.5vw;
   }
 
 }
