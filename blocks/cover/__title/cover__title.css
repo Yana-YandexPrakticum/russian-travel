@@ -14,7 +14,6 @@
 
     .cover__title {
       max-width: 250px;
-      height: unset;
       font-size: 32px;
       line-height: 35px;
     }
