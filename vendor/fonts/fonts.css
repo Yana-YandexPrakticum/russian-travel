@@ -3,8 +3,8 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(./Inter-Medium.woff2),
-       url(./Inter-Medium.woff);
+  src: url(./Inter-Regular.woff2),
+       url(./Inter-Regular.woff);
 }
 
 @font-face {
