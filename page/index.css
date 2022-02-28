@@ -17,6 +17,7 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
 @import url(../blocks/footer/__paragraph/footer__paragraph.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/intro/intro.css);
